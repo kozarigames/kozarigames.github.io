@@ -4,6 +4,21 @@ function scrollTo(id){
 }
 
 $('#goto_up, #navmenu_goto_up').click(function() { $('html, body').animate({ scrollTop: 0 }, 500); });
-$("#goto_pictures, #navmenu_goto_pictures").click(function() { scrollTo('section_pictures'); });
-$("#goto_games").click(function() { scrollTo('section_games'); });
-$(".goto_contact").click(function() { scrollTo('section_pictures'); });
+
+$("#navmenu_goto_about").click(function() { 
+    $('html, body').animate({ scrollTop: 0 }, 500); 
+    openCloseNavmenu();
+});
+
+$("#goto_pictures, #navmenu_goto_pictures").click(function() { 
+    scrollTo('section_pictures'); 
+    openCloseNavmenu();
+});
+$("#goto_games").click(function() { 
+    scrollTo('section_games'); 
+    openCloseNavmenu();
+});
+$(".goto_contact").click(function() { 
+    scrollTo('section_pictures'); 
+    openCloseNavmenu();
+});

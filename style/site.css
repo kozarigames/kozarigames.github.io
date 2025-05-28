@@ -116,7 +116,7 @@ a:hover {
 }
 
 #navmenu a {
-	color: #444444;
+	color: #222222;
 	text-decoration: none;
 	font-size: 15px;
 	text-transform: uppercase;
@@ -286,7 +286,7 @@ p {
 .social {
 	height: 82px;
 	color: #454545;
-	padding-top: 10px;
+	padding-top: 7px;
 	clear: left;
 	margin: auto;
 	width: 1200px;	
