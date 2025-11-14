@@ -10,8 +10,8 @@ function openCloseNavmenu() {
     $("#navmenu")
       .stop()
       .animate({
-        right: '-200px',
-        width: '150px'
+        right: '-180px',
+        width: '130px'
       }, 200)
       .delay(400).queue(function () {
         $(this).hide();
@@ -22,7 +22,7 @@ function openCloseNavmenu() {
       .stop()
       .animate({
         right: '0px',
-        width: '150px'
+        width: '130px'
       }, 200);
   }
 }

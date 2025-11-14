@@ -108,15 +108,15 @@ a:hover {
 	-moz-transition: .5s ease-in-out;
 	-o-transition: .5s ease-in-out;
 	transition: .5s ease-in-out;
-	right:-200px;
+	right: 0px;
 	top: 70px;
-	display: none;
-	background-color: #dedede;
+	background-color: #000000;
 	border-left: #000000 solid 1px;
+	display: none;
 }
 
 #navmenu a {
-	color: #222222;
+	color: #dedede;
 	text-decoration: none;
 	font-size: 15px;
 	text-transform: uppercase;
@@ -422,6 +422,12 @@ p {
 
 @media (max-width: 1000px) {
 
+	#navmenu {
+		display: block;
+       	right: 0px;
+        width: 130px;
+	}
+	
 	.social {
 		margin: auto;
 		height: 92px;
@@ -509,6 +515,12 @@ p {
 
 @media (max-width: 700px) {
 
+	#navmenu {
+		display: block;
+       	right: 0px;
+        width: 130px;
+	}
+
 	#kl_games_logo {
 		height: 25px;
 	}
@@ -526,6 +538,10 @@ p {
 
 	.about, .pictures, .videos {
 		width: 350px;
+	}
+
+	.about {
+		height: 300px;
 	}
 	
 	.wishlist {
