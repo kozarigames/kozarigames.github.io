@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta name = "title" content="KOZARI SOFTWARE">
+  <meta name = "description" content="KOZARI SOFTWARE">
+  <meta name = "keywords" content="KOZARI SOFTWARE">
+  <meta name = "copyright" content="Copyright (C) 2025 05 09 by Laca">
+  <meta name = "ROBOTS" content="INDEX, all">
+  <meta name = "distribution" content="Global">
+  <meta name = "rating" content="general">
+  <meta name = "doc-type" content="web page">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta http-equiv = "Content-Language" content="hu">
+  <meta http-equiv = "Expires" content="Mon, 03 Dec 1990 23:00:00 GMT">
+  <meta http-equiv="cache-control" content="no-cache, must-revalidate">
+  <meta http-equiv="Cache-control" content="max-age=1209600">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="theme-color" content="#000000" />
+
+  <title>KOZARI SOFTWARE</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link href="style/site.css" rel="stylesheet" type="text/css" >
+  <link href="style/hamburgers.css" rel="stylesheet">
+  <link href="images/kozari_icon_logo.ico" rel="shortcut icon">
+  <link rel="icon" type="image/png" href="images/kozari_icon_logo_32_32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="images/kozari_icon_logo_16_16.png" sizes="16x16" />
+  <script type='text/javascript' src='https://code.jquery.com/jquery-2.2.4.min.js?ver=2.2.4'></script>
+
+</head>
+
+<!-- KOZARI SOFTWARE -->
+<body id="the_body">
+
+    <div class="full social">
+      <div class="row" style="text-align: center;">
+            <!--<a href="https://x.com/kozarigames" target="_blank" style="background: none;"><img id="big_icon" src="images/x_icon.png" /></a>-->
+            <a href="https://www.instagram.com/kozarigames/" target="_blank" style="background: none"><img id="big_icon" src="images/insta_icon.png" /></a>
+            <a href="https://www.tiktok.com/@kozarigames" target="_blank" style="background: none"><img id="big_icon" src="images/tiktok_icon.png" /></a>
+            <a href="https://www.youtube.com/@kozarigames" target="_blank" style="background: none"><img id="big_icon" src="images/youtube_icon.png" /></a>
+            <a href="https://store.steampowered.com/app/3795800/Motel_Nightmares" target="_blank" title="Add wishlist on Steam!" style="background: none"><img id="big_icon" class="wishlist" src="images/steam_wishlist.png" /></a>
+        </div>
+    </div>
+
+    <div class="main">
+
+     <div class="head">
+        <div class="row">
+          <div id="head_logo">
+            <br/>
+            <a href="https://kozari.eu/"><img id="kl_games_logo_up" src="images/kozari_white.png" /></a>
+          </div>
+          <div id="head_menu">
+            <a href="#" id="goto_about">THE GAME</a>
+            <a href="#" id="goto_pictures">PICTURES</a>
+            <a href="#" class="goto_contact">CONTACT US</a>
+         </div>
+        </div>
+     </div>  
+
+     <div class="full about">
+      <div class="row">
+
+          <img src="images/job_interview/job4.png" style="width: 99%" />
+
+          <br/><br/>
+          <h3 style="color: #aa0000;">AI-Driven, Speech-Based Job Interview Simulator</h3>
+
+          <span>
+            <br/>
+              <section>
+                <p>
+                  I am building an <strong>AI-driven, speech-based job interview simulator</strong>
+                  where a <strong>Python backend</strong> and a <strong>Unity frontend</strong>
+                  communicate with each other in real time.
+                </p>
+
+                <p>
+                  The system is unique because it operates in both <strong>online</strong> and
+                  <strong>offline</strong> modes.
+                </p>
+              </section>
+
+              <br/>
+              <section>
+                <h2>Online Mode</h2>
+                <ul>
+                  <li>Uses OpenAI / ChatGPT for interview logic</li>
+                  <li>Produces higher-quality, more structured responses</li>
+                  <li>Paid service, therefore not always ideal</li>
+                </ul>
+              </section>
+
+              <section>
+                <h2>Offline Mode</h2>
+                <ul>
+                  <li>Uses a locally hosted LLM via Ollama</li>
+                  <li>Fully offline, controlled environment</li>
+                  <li>Slightly lower response quality, but self-hosted and scalable</li>
+                </ul>
+              </section>
+
+              <br/>
+              <section>
+                <h2>Tech Stack</h2>
+                <br/>
+
+                <h3>Backend (Python)</h3>
+                <ul>
+                  <li>LLM selection: online (ChatGPT) / offline (Ollama)</li>
+                  <li>XTTS – neural text-to-speech (always offline)</li>
+                  <li>WebSocket-based bidirectional real-time communication (no FastAPI)</li>
+                  <li>Audio processing and lip-sync data generation</li>
+                  <li>Multilingual support: Hungarian and English</li>
+                </ul>
+
+                <br/>
+                <h3>Frontend (Unity)</h3>
+                <ul>
+                  <li>Real-time UI and interaction</li>
+                  <li>Avatar rendering, animation, and lip-sync</li>
+                  <li>Handles backend events (question, answer, speech, state updates)</li>
+                </ul>
+              </section>
+
+              <br/>
+              <section>
+                <h2>Special Feature</h2>
+                <br/>
+                <p>
+                  <strong>Interviewer’s voice:</strong> Magyar Péter<br>
+                  <strong>Candidate’s voice:</strong> My own voice via voice cloning
+                </p>
+                <p>
+                  This makes the simulation not only technically advanced, but also
+                  psychologically realistic.
+                </p>
+              </section>
+
+              <br/>
+              <section>
+                <h2>Futures - TTS</h2>
+                <ul>
+                  <li>XTTS (offline)</li>
+                  <li>ElevenLabs (online)</li>
+                </ul>
+              </section>
+
+              <br/>
+              <section>
+                <h2>What Does the System Actually Do?</h2>
+                <br/>
+                <p>
+                  This is <strong>not a chatbot</strong> — it is an <strong>interview system</strong>.
+                </p>
+                <p>
+                  It conducts technical interviews (e.g., software engineering roles).
+                </p>
+                <p>
+                  Communication is speech-based, not just text-based.
+                  The backend does not simply “respond” — it actively
+                  <strong>leads and structures the interview</strong>.
+                </p>
+              </section>
+
+              <br/>
+              <section>
+                <h2>System Design Level</h2>
+                <br/>
+                <p>
+                  This project touches senior/staff-level system design challenges:
+                </p>
+                <ul>
+                  <li>AI decision-making logic</li>
+                  <li>Real-time communication architecture</li>
+                  <li>Offline–online fallback strategies</li>
+                  <li>Game engine integration</li>
+                </ul>
+              </section>
+
+              <section>
+                <h2>Performance Requirements</h2>
+                <br/>
+                <p>
+                  The system is heavily optimized to maintain speed at all times and
+                  avoid unnecessary latency.
+                </p>
+                <p>
+                  <strong>Minimum requirement:</strong> RTX 3070 with available CUDA capacity.<br>
+                  All other GPU-intensive processes should be disabled.
+                </p>
+              </section>
+
+            <br/>
+
+          </span>
+          <br/><br/><br/>
+          
+        </div>
+    </div>
+
+    <div id="arrow_center_up_middle"><i class="fa fa-angle-up arrow" id="goto_up"></i></div>
+
+    <a name="section_pictures" style="visibility: hidden"></a>
+    <div class="full pictures">
+      <div class="row">
+          <h3>PICTURES</h3><br/>
+
+          <img src="images/job_interview/job2.png" style="width: 99%" />
+          <img src="images/job_interview/job3.png" style="width: 99%" />
+          <img src="images/job_interview/job1.png" style="width: 99%" />
+
+        <div style="clear: both"></div>
+      </div>
+    </div>
+
+    <div id="arrow_center_up_middle"><i class="fa fa-angle-up arrow" id="goto_up"></i></div>
+
+    <a name="section_contact" style="visibility: hidden"></a>
+    <div class="full contact">
+      <div class="row">
+          <h3>CONTACT US</h3>
+
+          <div>
+
+            <br/>
+            <div class="info">kozarigames [AT] gmail.com</div>
+            <div class="info">KOZARI Software</div>
+
+          </div>
+      </div>
+    </div>
+
+    <div class="kllogo">
+      <div style="text-align: center; width: 100%; height: 100px;">
+        <a href="https://kozari.eu/" style="background: none"><img id="kl_games_logo" src="images/kozari_white.png" /></a>
+      </div>
+    </div>
+
+  </div>
+
+<!--
+  <div id="hamburgermenu">
+    <div class="hamburger hamburger--spin">
+      <div class="hamburger-box">
+        <div class="hamburger-inner"></div>
+      </div>
+    </div>
+  </div>
+-->
+  
+  <div id="navmenu">
+      <a href="#" id="navmenu_goto_about">THE GAME</a><br/>
+      <a href="#" id="navmenu_goto_pictures">PICTURES</a><br/>
+      <a href="#" class="goto_contact">CONTACT US</a>
+  </div>   
+
+<script type="text/javascript" src="js/main.js"></script>
+<!--<script type="text/javascript" src="js/hamburger.js"></script>-->
+
+</body>
+</html>
