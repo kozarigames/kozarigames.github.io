@@ -60,7 +60,7 @@
         </div>
      </div>  
 
-     <div class="full about">
+     <div class="full about" style="height: auto;">
       <div class="row">
 
           <img src="images/job_interview/job4.png" style="width: 99%" />
@@ -70,7 +70,7 @@
 
           <span>
             <br/>
-              <section>
+              <div>
                 <p>
                   I am building an <strong>AI-driven, speech-based job interview simulator</strong>
                   where a <strong>Python backend</strong> and a <strong>Unity frontend</strong>
@@ -81,36 +81,36 @@
                   The system is unique because it operates in both <strong>online</strong> and
                   <strong>offline</strong> modes.
                 </p>
-              </section>
+              </div>
 
               <br/>
-              <section>
+              <div>
                 <h2>Online Mode</h2>
                 <ul>
                   <li>Uses OpenAI / ChatGPT for interview logic</li>
                   <li>Produces higher-quality, more structured responses</li>
                   <li>Paid service, therefore not always ideal</li>
                 </ul>
-              </section>
+              </div>
 
-              <section>
+              <div>
                 <h2>Offline Mode</h2>
                 <ul>
                   <li>Uses a locally hosted LLM via Ollama</li>
                   <li>Fully offline, controlled environment</li>
                   <li>Slightly lower response quality, but self-hosted and scalable</li>
                 </ul>
-              </section>
+              </div>
 
               <br/>
-              <section>
+              <div>
                 <h2>Tech Stack</h2>
                 <br/>
 
                 <h3>Backend (Python)</h3>
                 <ul>
                   <li>LLM selection: online (ChatGPT) / offline (Ollama)</li>
-                  <li>XTTS – neural text-to-speech (always offline)</li>
+                  <li>XTTS - neural text-to-speech (always offline)</li>
                   <li>WebSocket-based bidirectional real-time communication (no FastAPI)</li>
                   <li>Audio processing and lip-sync data generation</li>
                   <li>Multilingual support: Hungarian and English</li>
@@ -123,33 +123,33 @@
                   <li>Avatar rendering, animation, and lip-sync</li>
                   <li>Handles backend events (question, answer, speech, state updates)</li>
                 </ul>
-              </section>
+              </div>
 
               <br/>
-              <section>
+              <div>
                 <h2>Special Feature</h2>
                 <br/>
                 <p>
-                  <strong>Interviewer’s voice:</strong> Magyar Péter<br>
-                  <strong>Candidate’s voice:</strong> My own voice via voice cloning
+                  <strong>Interviewer's voice:</strong> Magyar Péter<br>
+                  <strong>Candidate's voice:</strong> My own voice via voice cloning
                 </p>
                 <p>
                   This makes the simulation not only technically advanced, but also
                   psychologically realistic.
                 </p>
-              </section>
+              </div>
 
               <br/>
-              <section>
+              <div>
                 <h2>Futures - TTS</h2>
                 <ul>
                   <li>XTTS (offline)</li>
                   <li>ElevenLabs (online)</li>
                 </ul>
-              </section>
+              </div>
 
               <br/>
-              <section>
+              <div>
                 <h2>What Does the System Actually Do?</h2>
                 <br/>
                 <p>
@@ -163,10 +163,10 @@
                   The backend does not simply “respond” — it actively
                   <strong>leads and structures the interview</strong>.
                 </p>
-              </section>
+              </div>
 
               <br/>
-              <section>
+              <div>
                 <h2>System Design Level</h2>
                 <br/>
                 <p>
@@ -178,9 +178,9 @@
                   <li>Offline–online fallback strategies</li>
                   <li>Game engine integration</li>
                 </ul>
-              </section>
+              </div>
 
-              <section>
+              <div>
                 <h2>Performance Requirements</h2>
                 <br/>
                 <p>
@@ -191,7 +191,7 @@
                   <strong>Minimum requirement:</strong> RTX 3070 with available CUDA capacity.<br>
                   All other GPU-intensive processes should be disabled.
                 </p>
-              </section>
+              </div>
 
             <br/>
 
