@@ -14,13 +14,13 @@ html, body {
 }
 
 a {
-	color: #aa0000;
+	color: #888888;
 	text-decoration: none;
 	font-size: 18px;
-	font-weight: 800;
+	font-weight: 500;
 }
 a:hover {
-	color: #cc0000;
+	color: #a1a1a1;
 }
 
 #the_body {
@@ -192,7 +192,7 @@ h3 {
 
 .pictures, .videos {
 	text-align: left;
-	color: #454545;
+	color: #717171;
 	padding-top: 30px;
 	height: auto;
 	margin: auto;
@@ -200,7 +200,7 @@ h3 {
 }
 
 .videos {
-	color: #454545;
+	color: #717171;
 	background-color: #000000;
 }
 
@@ -222,7 +222,7 @@ p {
 
 .contact {
 	height: 140px;
-	color: #454545;
+	color: #717171;
 	clear: both;
 	padding-top: 30px;
 	margin: auto;
@@ -276,7 +276,7 @@ p {
 	height: auto;
 	margin-top: 0px;
 	background-color: #000000;
-	color: #454545;
+	color: #717171;
 	padding-top: 20px;
 	clear: both;
 	margin: auto;
@@ -285,7 +285,7 @@ p {
 
 .social {
 	height: 82px;
-	color: #454545;
+	color: #717171;
 	padding-top: 30px;
 	clear: left;
 	margin: auto;
