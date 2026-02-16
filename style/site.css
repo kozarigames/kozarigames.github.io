@@ -90,7 +90,7 @@ a:hover {
 
 #yttrailer_out {
     position: relative;
-    width: 99%;
+    width: 100%;
     padding-top: 56.25%; /* 16:9 arány */
 }
 
