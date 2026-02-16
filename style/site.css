@@ -347,7 +347,7 @@ p {
 }	
 
 #head_menu {
-	width: 45%;
+	width: 99%;
 	top: 20px;
 	position: relative;
 	float: left;
@@ -513,6 +513,7 @@ p {
 		width: 700px;
 		margin-top: -55px;
 		margin-bottom: -10px;
+		height: 100px;
 	}
 }
 
@@ -533,6 +534,7 @@ p {
 		width: 350px;
 		margin-top: -55px;
 		margin-bottom: -10px;
+		height: 100px;
 	}	
 
 	.social {

@@ -19,6 +19,10 @@ $("#goto_games").click(function() {
     openCloseNavmenu();
 });
 $(".goto_contact").click(function() { 
-    scrollTo('section_pictures'); 
+    $('html, body').animate({
+        scrollTop: $(document).height()
+    }, 600); // 600ms animáció
+    
     openCloseNavmenu();
 });
+
