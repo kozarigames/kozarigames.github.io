@@ -185,10 +185,23 @@ h4 {
 	padding-left: 50px;
 }
 
+.rowhead {
+	width: 80%;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
 .row {
 	width: 80%;
 	padding-left: 10%;
 	padding-right: 10%;
+}
+
+/* vízszintes középre */	
+.row img {
+    display: block;
+    margin: 0 auto;
+	width: 100%;
 }
 
 .navy {
