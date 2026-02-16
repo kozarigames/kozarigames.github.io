@@ -94,7 +94,7 @@ a:hover {
 }
 
 #yttrailer_out {
-	width: 800px; 
+	width: 99%; 
 	margin: auto;
 }
 
@@ -508,10 +508,6 @@ p {
 		height: 320px;
 	}
 	
-	#yttrailer_out {
-		width: 400px; 
-		margin: auto;
-	}	
 }
 
 
@@ -555,9 +551,5 @@ p {
 		height: 240px;
 	}
 	
-	#yttrailer_out {
-		width: 300px; 
-		margin: auto;
-	}
 
 }
