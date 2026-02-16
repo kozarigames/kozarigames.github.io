@@ -505,6 +505,12 @@ p {
 		width:700px;
 	}
 
+	.rowhead {
+		width: 90%;
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+
 	.row {
 		width: 90%;
 		padding-left: 5%;
